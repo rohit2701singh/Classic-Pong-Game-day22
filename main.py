@@ -1,4 +1,3 @@
-import turtle
 from turtle import Screen, Turtle
 from paddle import Paddle
 from ball import Ball
@@ -21,7 +20,6 @@ tim.goto(0, 210)
 tim.pendown()
 tim.goto(0, -210)
 tim.hideturtle()
-
 
 r_paddle = Paddle((375, 0))
 l_paddle = Paddle((-375, 0))
